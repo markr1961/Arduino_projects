@@ -38,6 +38,9 @@ Free heap: 359124
 Total PSRAM: 0
 Free PSRAM: 0
 
+## Note:
+Serial.printf is routed to USB OTG port, not COM/upload port. Essentially need both connected to upload _and_ use serial.
+
 ### commit notes
 01/03/2025 MAR
 Initial commit with working serial "hello world' project and docs
