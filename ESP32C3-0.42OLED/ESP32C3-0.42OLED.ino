@@ -42,7 +42,8 @@ void setup(void)
     u8g2.begin();
     u8g2.setContrast(255); // set contrast to maximum 
     u8g2.setBusClock(400000); //400kHz I2C 
-    u8g2.setFont(u8g2_font_ncenB10_tr);
+///    u8g2.setFont(u8g2_font_ncenB10_tr);
+    u8g2.setFont(u8g2_font_ncenB14_tr);
 }
 
 int count;
